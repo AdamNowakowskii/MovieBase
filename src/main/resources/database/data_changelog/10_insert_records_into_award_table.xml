@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd">
+    <changeSet author="adam_nowakowski" id="10_1">
+        <insert tableName="award">
+            <column name="movie_id" value="1"/>
+            <column name="award" value="Academy Award for Best Picture"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="1"/>
+            <column name="award" value="Academy Award for Best Actor in a Leading Role"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="1"/>
+            <column name="award" value="Academy Award for Best Adapted Screenplay"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="1"/>
+            <column name="award" value="Golden Globe Award for Best Motion Picture – Drama"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="1"/>
+            <column name="award" value="Golden Globe Award for Best Director – Motion Picture"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="1"/>
+            <column name="award" value="Golden Globe Award for Best Actor – Motion Picture Drama"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="1"/>
+            <column name="award" value="BAFTA Award for Best Film"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="1"/>
+            <column name="award" value="BAFTA Award for Best Direction"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="1"/>
+            <column name="award" value="David di Donatello Award for Best Foreign Producer"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="2"/>
+            <column name="award" value="Nominated for 7 Academy award, including Best Picture (1995)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="2"/>
+            <column name="award" value="Nominated for Best Actor in a Leading Role (Morgan Freeman, 1995)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="2"/>
+            <column name="award" value="Nominated for Best Adapted Screenplay (1995)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="2"/>
+            <column name="award" value="Nominated for Best Cinematography (1995)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="2"/>
+            <column name="award" value="Nominated for Best Sound (1995)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="2"/>
+            <column name="award" value="Nominated for Best Film Editing (1995)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="2"/>
+            <column name="award" value="Nominated for Best Original Score (1995)"/>
+        </insert>
+        <insert tableName="award">
+            <column name="movie_id" value="3"/>
+            <column name="award" value="Won 2 Academy award: Best Supporting Actor (Heath Ledger) and Best Sound Editing (2009)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="3"/>
+            <column name="award" value="Nominated for 6 Academy award, including Best Picture (2009)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="3"/>
+            <column name="award" value="Nominated for Best Director (Christopher Nolan, 2009)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="3"/>
+            <column name="award" value="Nominated for Best Cinematography (2009)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="3"/>
+            <column name="award" value="Nominated for Best Editing (2009)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="3"/>
+            <column name="award" value="Nominated for Best Art Direction (2009)"/>
+        </insert>
+        <insert tableName="award">
+            <column name="movie_id" value="4"/>
+            <column name="award" value="Won 6 Academy Awards, including Best Picture, Best Director (Robert Zemeckis), and Best Actor in a Leading Role (Tom Hanks) (1995)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="4"/>
+            <column name="award" value="Won 3 Golden Globe Awards, including Best Motion Picture - Drama, Best Director - Motion Picture (Robert Zemeckis), and Best Actor - Motion Picture Drama (Tom Hanks) (1995)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="4"/>
+            <column name="award" value="Won 4 People's Choice Awards, including Favorite Dramatic Motion Picture, Favorite Motion Picture Actor (Tom Hanks), and Favorite Motion Picture Actress (Robin Wright) (1995)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="4"/>
+            <column name="award" value="Won 2 Screen Actors Guild Awards, including Outstanding Performance by a Male Actor in a Leading Role (Tom Hanks) (1995)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="4"/>
+            <column name="award" value="Nominated for 13 Academy Awards, including Best Original Screenplay and Best Supporting Actor (Gary Sinise) (1995)"/>
+        </insert>
+        <insert tableName="award">
+            <column name="movie_id" value="5"/>
+            <column name="award" value="Won 4 Academy Awards, including Best Visual Effects, Best Film Editing, Best Sound, and Best Sound Effects Editing (1999)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="5"/>
+            <column name="award" value="Won 2 BAFTA Awards, including Best Sound and Best Special Visual Effects (1999)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="5"/>
+            <column name="award" value="Won 4 Saturn Awards, including Best Science Fiction Film, Best Director (The Wachowskis), and Best Special Effects (1999)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="5"/>
+            <column name="award" value="Nominated for 4 Academy Awards, including Best Picture and Best Director (The Wachowskis) (1999)"/>
+        </insert>
+        <insert tableName="award">
+            <column name="movie_id" value="6"/>
+            <column name="award" value="Won 4 Academy Awards, including Best Cinematography, Best Sound Editing, Best Sound Mixing, and Best Visual Effects (2010)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="6"/>
+            <column name="award" value="Won 2 BAFTA Awards, including Best Special Visual Effects and Best Sound (2011)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="6"/>
+            <column name="award" value="Won 4 Saturn Awards, including Best Science Fiction Film, Best Director (Christopher Nolan), and Best Special Effects (2010)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="6"/>
+            <column name="award" value="Nominated for 8 Academy Awards, including Best Picture, Best Original Screenplay (Christopher Nolan), and Best Director (Christopher Nolan) (2010)"/>
+        </insert>
+        <insert tableName="award">
+            <column name="movie_id" value="7"/>
+            <column name="award" value="Won the Palme d'Or at the 1994 Cannes Film Festival"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="7"/>
+            <column name="award" value="Won an Academy Award for Best Original Screenplay (1995)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="7"/>
+            <column name="award" value="Nominated for 6 Academy Awards, including Best Picture and Best Director (1995)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="7"/>
+            <column name="award" value="Won a BAFTA Award for Best Original Screenplay (1995)"/>
+        </insert>
+        <insert tableName="award">
+            <column name="movie_id" value="8"/>
+            <column name="award" value="Won 5 Academy Awards, including Best Picture, Best Director (Jonathan Demme), Best Actor (Anthony Hopkins), Best Actress (Jodie Foster), and Best Adapted Screenplay (1992)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="8"/>
+            <column name="award" value="Won 3 BAFTA Awards, including Best Film, Best Director, and Best Actor (Anthony Hopkins) (1992)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="8"/>
+            <column name="award" value="Won a Golden Globe Award for Best Motion Picture – Drama (1992)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="8"/>
+            <column name="award" value="Won a Saturn Award for Best Actress (Jodie Foster) (1992)"/>
+        </insert>
+        <insert tableName="award">
+            <column name="movie_id" value="9"/>
+            <column name="award" value="Won 7 Academy Awards, including Best Picture, Best Director (Steven Spielberg), and Best Adapted Screenplay (1993)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="9"/>
+            <column name="award" value="Won 7 BAFTA Awards, including Best Film, Best Director, and Best Adapted Screenplay (1994)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="9"/>
+            <column name="award" value="Won a Golden Globe Award for Best Motion Picture – Drama (1994)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="9"/>
+            <column name="award" value="Won a Directors Guild of America Award for Outstanding Directorial Achievement in Motion Pictures (1993)"/>
+        </insert>
+        <insert tableName="award">
+            <column name="movie_id" value="10"/>
+            <column name="award" value="Won an Academy Award for Best Visual Effects (2015)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="10"/>
+            <column name="award" value="Won a BAFTA Award for Best Special Visual Effects (2015)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="10"/>
+            <column name="award" value="Won a Hugo Award for Best Dramatic Presentation (2015)"/>
+        </insert>
+
+        <insert tableName="award">
+            <column name="movie_id" value="10"/>
+            <column name="award" value="Won a Saturn Award for Best Science Fiction Film (2015)"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

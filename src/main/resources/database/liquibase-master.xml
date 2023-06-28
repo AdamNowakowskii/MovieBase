@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd">
+    <include file="data_changelog/1_create_genre_table.xml" relativeToChangelogFile="true"/>
+    <include file="data_changelog/2_create_movie_table.xml" relativeToChangelogFile="true"/>
+    <include file="data_changelog/3_create_actor_table.xml" relativeToChangelogFile="true"/>
+    <include file="data_changelog/4_create_award_table.xml" relativeToChangelogFile="true"/>
+    <include file="data_changelog/5_create_rating_table.xml" relativeToChangelogFile="true"/>
+    <include file="data_changelog/6_insert_records_into_movie_table.xml" relativeToChangelogFile="true"/>
+    <include file="data_changelog/7_insert_records_into_rating_table.xml" relativeToChangelogFile="true"/>
+    <include file="data_changelog/8_insert_records_into_genre_table.xml" relativeToChangelogFile="true"/>
+    <include file="data_changelog/9_insert_records_into_actors_table.xml" relativeToChangelogFile="true"/>
+    <include file="data_changelog/10_insert_records_into_award_table.xml" relativeToChangelogFile="true"/>
+</databaseChangeLog>

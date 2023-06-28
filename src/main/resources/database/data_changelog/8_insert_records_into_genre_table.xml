@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd">
+        <changeSet author="adam_nowakowski" id="8_1">
+            <insert tableName="genre">
+                <column name="genre" value="Action"/>
+            </insert>
+            <insert tableName="genre">
+                <column name="genre" value="Comedy"/>
+            </insert>
+            <insert tableName="genre">
+                <column name="genre" value="Drama"/>
+            </insert>
+            <insert tableName="genre">
+                <column name="genre" value="Romance"/>
+            </insert>
+            <insert tableName="genre">
+                <column name="genre" value="Horror"/>
+            </insert>
+            <insert tableName="genre">
+                <column name="genre" value="Science Fiction"/>
+            </insert>
+            <insert tableName="genre">
+                <column name="genre" value="Thriller"/>
+            </insert>
+            <insert tableName="genre">
+                <column name="genre" value="Animation"/>
+            </insert>
+            <insert tableName="genre">
+                <column name="genre" value="Adventure"/>
+            </insert>
+            <insert tableName="genre">
+                <column name="genre" value="Crime"/>
+            </insert>
+        </changeSet>
+</databaseChangeLog>

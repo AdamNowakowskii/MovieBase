@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd">
+    <changeSet author="rysiu" id="9_1">
+        <insert tableName="actor">
+            <column name="movie_id" value="1"/>
+            <column name="first_name" value="Marlon"/>
+            <column name="last_name" value="Brando"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="1"/>
+            <column name="first_name" value="Al"/>
+            <column name="last_name" value="Pacino"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="1"/>
+            <column name="first_name" value="James"/>
+            <column name="last_name" value="Caan"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="1"/>
+            <column name="first_name" value="Richard"/>
+            <column name="last_name" value="S. Castellano"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="2"/>
+            <column name="first_name" value="Tim"/>
+            <column name="last_name" value="Robbins"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="2"/>
+            <column name="first_name" value="Morgan"/>
+            <column name="last_name" value="Freeman"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="2"/>
+            <column name="first_name" value="Bob"/>
+            <column name="last_name" value="Gunton"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="2"/>
+            <column name="first_name" value="William"/>
+            <column name="last_name" value="Sadler"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="3"/>
+            <column name="first_name" value="Christian"/>
+            <column name="last_name" value="Bale"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="3"/>
+            <column name="first_name" value="Heath"/>
+            <column name="last_name" value="Ledger"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="3"/>
+            <column name="first_name" value="Aaron"/>
+            <column name="last_name" value="Eckhart"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="3"/>
+            <column name="first_name" value="Gary"/>
+            <column name="last_name" value="Oldman"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="4"/>
+            <column name="first_name" value="Tom"/>
+            <column name="last_name" value="Hanks"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="4"/>
+            <column name="first_name" value="Robin"/>
+            <column name="last_name" value="Wright"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="4"/>
+            <column name="first_name" value="Gary"/>
+            <column name="last_name" value="Sinise"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="5"/>
+            <column name="first_name" value="Keanu"/>
+            <column name="last_name" value="Reeves"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="5"/>
+            <column name="first_name" value="Laurence"/>
+            <column name="last_name" value="Fishburne"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="5"/>
+            <column name="first_name" value="Carrie-Anne"/>
+            <column name="last_name" value="Moss"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="5"/>
+            <column name="first_name" value="Hugo"/>
+            <column name="last_name" value="Weaving"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="6"/>
+            <column name="first_name" value="Leonardo"/>
+            <column name="last_name" value="DiCaprio"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="6"/>
+            <column name="first_name" value="Joseph"/>
+            <column name="last_name" value="Gordon-Levitt"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="6"/>
+            <column name="first_name" value="Ellen"/>
+            <column name="last_name" value="Page"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="6"/>
+            <column name="first_name" value="Tom"/>
+            <column name="last_name" value="Hardy"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="7"/>
+            <column name="first_name" value="John"/>
+            <column name="last_name" value="Travolta"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="7"/>
+            <column name="first_name" value="Samuel L."/>
+            <column name="last_name" value="Jackson"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="7"/>
+            <column name="first_name" value="Uma"/>
+            <column name="last_name" value="Thurman"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="7"/>
+            <column name="first_name" value="Harvey"/>
+            <column name="last_name" value="Keitel"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="7"/>
+            <column name="first_name" value="Tim"/>
+            <column name="last_name" value="Roth"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="8"/>
+            <column name="first_name" value="Jodie"/>
+            <column name="last_name" value="Foster"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="8"/>
+            <column name="first_name" value="Anthony"/>
+            <column name="last_name" value="Hopkins"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="8"/>
+            <column name="first_name" value="Ted"/>
+            <column name="last_name" value="Levine"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="8"/>
+            <column name="first_name" value="Scott Glenn"/>
+            <column name="last_name" value="Scott Glenn"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="9"/>
+            <column name="first_name" value="Liam"/>
+            <column name="last_name" value="Neeson"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="9"/>
+            <column name="first_name" value="Ben"/>
+            <column name="last_name" value="Kingsley"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="9"/>
+            <column name="first_name" value="Ralph"/>
+            <column name="last_name" value="Fiennes"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="9"/>
+            <column name="first_name" value="Embeth"/>
+            <column name="last_name" value="Davidtz"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="10"/>
+            <column name="first_name" value="Matthew"/>
+            <column name="last_name" value="McConaughey"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="10"/>
+            <column name="first_name" value="Anne"/>
+            <column name="last_name" value="Hathaway"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="10"/>
+            <column name="first_name" value="Jessica"/>
+            <column name="last_name" value="Chastain"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" value="10"/>
+            <column name="first_name" value="Michael C."/>
+            <column name="last_name" value="Hall"/>
+        </insert>
+        <insert tableName="actor">
+            <column name="movie_id" valueNumeric="10"/>
+            <column name="first_name" value="Matt"/>
+            <column name="last_name" value="Damon"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

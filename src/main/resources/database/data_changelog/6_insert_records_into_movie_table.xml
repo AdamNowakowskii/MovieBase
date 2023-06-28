@@ -1,0 +1,88 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd">
+    <changeSet author="6_1" id="rysiu">
+        <insert tableName="movie">
+            <column name="title" value="The Godfather"/>
+            <column name="director" value="Francis Ford Coppola"/>
+            <column name="synopsis" value="The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."/>
+            <column name="runtime_in_sec" value="3600"/>
+            <column name="country_of_origin" value="USA"/>
+            <column name="release_date" value="1972-03-24"/>
+        </insert>
+        <insert tableName="movie">
+            <column name="title" value="The Shawshank Redemption"/>
+            <column name="director" value="Frank Darabont"/>
+            <column name="synopsis" value="Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."/>
+            <column name="runtime_in_sec" value="5400"/>
+            <column name="country_of_origin" value="USA"/>
+            <column name="release_date" value="1994-09-23"/>
+        </insert>
+        <insert tableName="movie">
+            <column name="title" value="The Dark Knight"/>
+            <column name="director" value="Christopher Nolan"/>
+            <column name="synopsis" value="When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."/>
+            <column name="runtime_in_sec" value="7200"/>
+            <column name="country_of_origin" value="USA"/>
+            <column name="release_date" value="2008-07-18"/>
+        </insert>
+        <insert tableName="movie">
+            <column name="title" value="Forrest Gump"/>
+            <column name="director" value="Robert Zemeckis"/>
+            <column name="synopsis" value="The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate and other historical events unfold through the perspective of an Alabama man with an IQ of 75."/>
+            <column name="runtime_in_sec" value="9900"/>
+            <column name="country_of_origin" value="USA"/>
+            <column name="release_date" value="1994-07-06"/>
+        </insert>
+        <insert tableName="movie">
+            <column name="title" value="The Matrix"/>
+            <column name="director" value="Lana Wachowski, Lilly Wachowski"/>
+            <column name="synopsis" value="A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."/>
+            <column name="runtime_in_sec" value="9900"/>
+            <column name="country_of_origin" value="USA"/>
+            <column name="release_date" value="1999-03-31"/>
+        </insert>
+        <insert tableName="movie">
+            <column name="title" value="Inception"/>
+            <column name="director" value="Christopher Nolan"/>
+            <column name="synopsis" value="A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."/>
+            <column name="runtime_in_sec" value="8100"/>
+            <column name="country_of_origin" value="USA"/>
+            <column name="release_date" value="2010-07-16"/>
+        </insert>
+        <insert tableName="movie">
+            <column name="title" value="Pulp Fiction"/>
+            <column name="director" value="Quentin Tarantino"/>
+            <column name="synopsis" value="The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."/>
+            <column name="runtime_in_sec" value="8100"/>
+            <column name="country_of_origin" value="USA"/>
+            <column name="release_date" value="1994-10-14"/>
+        </insert>
+        <insert tableName="movie">
+            <column name="title" value="The Silence of the Lambs"/>
+            <column name="director" value="Jonathan Demme"/>
+            <column name="synopsis" value="A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."/>
+            <column name="runtime_in_sec" value="3600"/>
+            <column name="country_of_origin" value="USA"/>
+            <column name="release_date" value="1991-02-14"/>
+        </insert>
+        <insert tableName="movie">
+            <column name="title" value="Schindler's List"/>
+            <column name="director" value="Steven Spielberg"/>
+            <column name="synopsis" value="In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."/>
+            <column name="runtime_in_sec" value="5400"/>
+            <column name="country_of_origin" value="USA"/>
+            <column name="release_date" value="1993-12-15"/>
+        </insert>
+        <insert tableName="movie">
+            <column name="title" value="Interstellar"/>
+            <column name="director" value="Christopher Nolan"/>
+            <column name="synopsis" value="A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."/>
+            <column name="runtime_in_sec" value="5400"/>
+            <column name="country_of_origin" value="USA"/>
+            <column name="release_date" value="2014-11-07"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
